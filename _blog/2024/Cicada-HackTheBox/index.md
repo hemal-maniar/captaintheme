@@ -4,7 +4,6 @@ title: Cicada HackTheBox
 category: Cicada-HackTheBox
 date: 2024-10-11
 ---
-
 ### Service Enumeration
 
 **Port Scan Results**
