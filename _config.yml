@@ -1,25 +1,25 @@
 remote_theme: CaptainIRS/hacker-plus-theme
 
-title:
-author:
+title: Hemal Maniar
+author: Hemal Maniar
 description: 
 disqus_forum_shortname:
 google_site_verification_content: # The 'content' tag for site verification
 google_analytics: # Your Google Analytics Tracking ID
 
 # Usernames and badges
-htb_badge_no: # Go to the HackTheBox site and copy your ID
-thm_badge_no: # Go to https://tryhackme.com/profile -> Public Profile -> Get Badge ID
+htb_badge_no: 385030
+thm_badge_no: 458810
 show_thm_htb_badges_in_nav: false
-github_username: 
+github_username: hemal-maniar
 gitlab:
 medium:
 stackoverflow:
 hacker_news:
-linkedin:
+linkedin: hemal-maniar
 twitch:
 youtube:
-twitter: 
+twitter: he_malware
 facebook:
 instagram:
 reddit:
