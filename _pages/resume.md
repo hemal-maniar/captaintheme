@@ -2,6 +2,10 @@
 layout: default
 ---
 
+<iframe src="https://pdfobject.com/pdf/sample.pdf" width="100%" height="800px" style="border:none;"></iframe>
+
+
+
 # Hemal Maniar
 
 **Email**: maniar.he@gmail.com | **[LinkedIn](https://www.linkedin.com/in/hemal-maniar)** | **[GitHub](https://github.com/hemal-maniar)**
