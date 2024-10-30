@@ -14,7 +14,6 @@ Server IP Address | Ports Open
 
 Ran nmap to scan for common TCP ports open on the target.
 
-Service scan
 ```bash
 sudo nmap -sC -sV 10.10.11.35 -oA nmap -v 
 ```
@@ -22,7 +21,6 @@ sudo nmap -sC -sV 10.10.11.35 -oA nmap -v
 ![](<Pasted image 20241011182323.png>)
 
 Ran another nmap scan to identify any other open TCP ports on the target.
-All port scan
 ```bash
 nmap -sV -p- -v 10.10.11.35 -oA nmap2
 ```
@@ -118,6 +116,7 @@ This script contains credentials for another user `emily.oscars:Q!3@Lp#M6b*7t*Vt
 ![](<Pasted image 20241012202906.png>)
 
 **Initial Foothold - emily.oscars**
+
 I can now log in as user `emily.oscars` over WinRM. I am going to use [evil-winrm](https://book.hacktricks.xyz/network-services-pentesting/5985-5986-pentesting-winrm#using-evil-winrm) to get PowerShell access.
 ```bash
 evil-winrm -i 10.10.11.35 -u 'cicada.htb\emily.oscars' -p 'Q!3@Lp#M6b*7t*Vt'
