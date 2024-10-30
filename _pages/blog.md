@@ -1,3 +1,3 @@
 ---
-layout: ctf_toplevel
+layout: blog_toplevel
 ---
